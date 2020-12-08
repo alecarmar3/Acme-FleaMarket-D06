@@ -1,0 +1,22 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+supplier.acme-item-request.label.ticker = Identificador
+supplier.acme-item-request.label.creation-date = Fecha de creación
+supplier.acme-item-request.label.quantity = Cantidad
+supplier.acme-item-request.label.notes = Notas
+supplier.acme-item-request.label.status = Estado
+supplier.acme-item-request.label.justification = Justificación
+supplier.acme-item-request.label.buyer = Comprador
+supplier.acme-item-request.label.acme-item = Objeto
+
+supplier.acme-item-request.button.accept = Aceptar
+supplier.acme-item-request.button.reject = Rechazar
+supplier.acme-item-request.button.return = Volver

@@ -1,0 +1,26 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.buyer.label.email = Email
+authenticated.buyer.label.phone-number = Phone number
+authenticated.buyer.label.delivery-address = Delivery address
+authenticated.buyer.label.credit-card-number = Creditcard number
+authenticated.buyer.label.holder-name = Holder name
+authenticated.buyer.label.brand = Brand
+authenticated.buyer.label.expiration-date = Expiration date
+authenticated.buyer.label.cvv = CVV
+
+authenticated.buyer.button.create = Register
+authenticated.buyer.button.update = Update
+authenticated.buyer.button.return = Return
+
+authenticated.buyer.error.timed-out-credit-card-year = Expiration year must be from this in advance
+authenticated.buyer.error.timed-out-credit-card-month = Expiration month must be from this in advance
+authenticated.buyer.error.inexistent-month = The month number must be in the range of 1 to 12, neither is inexistent

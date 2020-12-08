@@ -1,0 +1,27 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.news.label.category = Categoría
+administrator.news.label.header-picture = Foto de encabezado
+administrator.news.label.title = Título
+administrator.news.label.creation-date = Fecha de creación
+administrator.news.label.deadline = Fecha de vencimiento
+administrator.news.label.body = Cuerpo
+administrator.news.label.news-links = Enlaces de noticias
+administrator.news.label.confirm-creation = Confirmar creación
+
+administrator.news.button.create = Crear
+
+administrator.news.button.return = Volver
+
+###### Errors ######
+
+administrator.news.error.past-deadline = La fecha de vencimiento debe estar en el futuro
+administrator.news.error.must-accept = Debe confirmar la creación

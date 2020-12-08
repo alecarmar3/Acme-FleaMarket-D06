@@ -1,0 +1,32 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.advertisement.label.title = Título
+administrator.advertisement.label.picture = Foto
+administrator.advertisement.label.creation-date = Fecha de creación
+administrator.advertisement.label.update-date = Fecha de actualización
+administrator.advertisement.label.displayed-until = Mostrado hasta
+administrator.advertisement.label.text-piece = Trozo de texto
+administrator.advertisement.label.small-volume-discount = Descuento de volumen pequeño
+administrator.advertisement.label.average-volume-discount = Descuento de volumen medio
+administrator.advertisement.label.large-volume-discount = Descuento de volumen grande
+administrator.advertisement.label.small-interval = Intervalo pequeño
+administrator.advertisement.label.average-interval = Intervalo medio
+administrator.advertisement.label.large-interval = Intervalo grande
+
+administrator.advertisement.button.update = Actualizar
+administrator.advertisement.button.delete = Eliminar
+administrator.advertisement.button.create = Crear
+
+administrator.advertisement.button.return = Volver
+
+administrator.advertisement.error.past-deadline = El anuncio debe ser mostrado hasta una fecha cualquiera en el futuro
+administrator.advertisement.error.average-higher-than-small = El descuento medio debe ser mayor que el descuento pequeño
+administrator.advertisement.error.large-lower-than-average = El descuento medio debe ser menor que el descuento grande

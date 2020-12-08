@@ -1,0 +1,29 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+supplier.acme-item.label.ticker = Identificador
+supplier.acme-item.label.creation-date = Fecha de creación
+supplier.acme-item.label.update-date = Fecha de actualización
+supplier.acme-item.label.title = Título
+supplier.acme-item.label.category = Categoría
+supplier.acme-item.label.description = Descripción
+supplier.acme-item.label.price = Precio
+supplier.acme-item.label.photo = Foto
+supplier.acme-item.label.additional-information = Información adicional
+supplier.acme-item.label.final-mode = Modo final
+supplier.acme-item.label.is-new = Es nuevo
+	
+supplier.acme-item.button.return = Volver
+supplier.acme-item.button.create = Crear
+supplier.acme-item.button.update = Actualizar
+supplier.acme-item.button.delete = Eliminar
+supplier.acme-item.button.saveInFinalMode = Guardar en modo final
+supplier.acme-item.specification-sheet.button.create = Crear Hoja de especificación
+supplier.acme-item.specification-sheets = Hojas de especificación

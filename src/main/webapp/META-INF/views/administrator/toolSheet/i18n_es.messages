@@ -1,0 +1,22 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.tool-sheet.label.title = Título
+administrator.tool-sheet.label.description = Descipción
+administrator.tool-sheet.label.update-date = Fecha de actualización
+administrator.tool-sheet.label.provider-name = Nombre de proveedor
+administrator.tool-sheet.label.home-page = Página principal
+administrator.tool-sheet.label.stars = Estrellas
+
+administrator.tool-sheet.button.update = Actualizar
+administrator.tool-sheet.button.delete = Eliminar
+administrator.tool-sheet.button.create = Crear
+	
+administrator.tool-sheet.button.return = Volver

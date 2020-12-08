@@ -1,0 +1,24 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.figment.label.title = Título
+administrator.figment.label.inventor-name = Nombre de inventor
+administrator.figment.label.update-date = Fecha de actualización
+administrator.figment.label.text-piece = Trozo de texto
+administrator.figment.label.price-min = Precio mínimo
+administrator.figment.label.price-max = Precio máximo
+
+administrator.figment.button.update = Update
+administrator.figment.button.delete = Delete
+administrator.figment.button.create = Create
+	
+administrator.figment.button.return = Volver
+
+Maximum price must be higher than minimum price = El precio máximo debe ser mayor que el precio mínimo

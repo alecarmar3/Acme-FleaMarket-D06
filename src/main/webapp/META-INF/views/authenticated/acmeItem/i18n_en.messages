@@ -1,0 +1,24 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.acme-item.label.ticker = Ticker
+authenticated.acme-item.label.creation-date = Creation date
+authenticated.acme-item.label.update-date = Update date
+authenticated.acme-item.label.title = Title
+authenticated.acme-item.label.category = Category
+authenticated.acme-item.label.description = Description
+authenticated.acme-item.label.price = Price
+authenticated.acme-item.label.photo = Photo
+authenticated.acme-item.label.additional-information = Additional information
+authenticated.acme-item.label.is-new = Is new
+	
+authenticated.acme-item.specification-sheets = Specification sheets
+authenticated.acme-item.request = Request Item
+authenticated.acme-item.button.return = Return

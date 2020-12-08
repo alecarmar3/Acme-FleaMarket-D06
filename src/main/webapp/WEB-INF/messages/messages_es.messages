@@ -1,0 +1,37 @@
+# messages_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+datatables.language	= /libraries/datatables/1.10.18/config/i18n_es.json
+
+default.format.moment = dd/MM/yyyy HH:mm
+
+default.placeholder.moment = dd/mm/yyyy hh:mm
+default.placeholder.money = 123.456,78 EUR
+default.placeholder.double = 123.456,78
+default.placeholder.integer = 123.456
+default.placeholder.url = http://www.acme.com
+
+default.error.conversion = Valor incorrecto
+default.error.endpoint-unavailable = End-point no disponible
+default.error.not-authorised = Acceso no autorizado
+default.error.ticker-pattern = Ticker format must fit: “LLL-DD-DDDDDD” donde “L” denota una letra en mayúsculas y "D" denota un dígito
+default.error.ticker-pattern.letters = Las primeras tres letras deben coincidir con las primeras tres letras de la categoría del objeto
+default.error.ticker-pattern.yearDigits = Los dos dígitos centrales deben coincidir con los dos últimos dígitos del año actual
+default.error.already-in-use = Actualmente en uso
+default.error.does-not-have-specification-sheet = Este objeto debe tener al menos una hoja de especificación asociada
+default.error.not-unique-indexers = Los índices de las secciones de la hoja de especificación no son únicos
+default.error.updating-unavailable = No se puede actualizar mientras se encuentre en modo final
+default.error.wrong-currency = El dinero debe ser expresado en Euros
+default.error.spam = Este trozo de texto contiene spam
+default.error.has-acme-item-requests = No se puede eliminar mientras haya sido pedido al menos una vez
+default.error.justification-needed = Las peticiones rechazadas deben tener una justificación
+default.buyer.error.phone-number-pattern = Debe introducir un número de teléfono válido
+default.buyer.error.expiration-date-pattern = La fecha de vencimiento debe cumplir el patrón XX/YY dónde XX es el mes e YY el año
+default.buyer.error.cvv-pattern = El CVV debe cumplir el patrón XXX dónde X es un número

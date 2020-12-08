@@ -1,0 +1,37 @@
+# messages_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+datatables.language = /libraries/datatables/1.10.18/config/i18n.json
+
+default.format.moment = yyyy/MM/dd HH:mm
+
+default.placeholder.moment = yyyy/mm/dd hh:mm
+default.placeholder.money = EUR 123,456.78
+default.placeholder.double = 123,456.78
+default.placeholder.integer = 123,456
+default.placeholder.url = http://www.acme.com
+
+default.error.conversion = Invalid value
+default.error.endpoint-unavailable = End-point not available
+default.error.not-authorised = Access is not authorised
+default.error.ticker-pattern = Ticker format must fit: “LLL-DD-DDDDDD” where “L” denotes an upper case letter and "D" denotes a digit
+default.error.ticker-pattern.letters = The first three letter must fit the first three letters of the item category
+default.error.ticker-pattern.yearDigits = The middle two digits must fit the last two digits of the current year
+default.error.already-in-use = Already in use
+default.error.does-not-have-specification-sheet = This item must have at least one specification sheet associated
+default.error.not-unique-indexers = The indexers within the sections of the specification sheet are not unique
+default.error.updating-unavailable = Can not update meanwhile it is saved in final mode
+default.error.wrong-currency = Money must be expressed in Euros
+default.error.spam = This piece of text contains spam
+default.error.has-acme-item-requests = Can not delete meanwhile it has been requested at least once
+default.error.justification-needed = Rejected requests must have a justification
+default.buyer.error.phone-number-pattern = Must enter a valid phone number
+default.buyer.error.expiration-date-pattern = Expiration date must fit the pattern XX/YY where XX denotes the month and YY the year
+default.buyer.error.cvv-pattern = CVV must fit the pattern XXX where X denotes a number

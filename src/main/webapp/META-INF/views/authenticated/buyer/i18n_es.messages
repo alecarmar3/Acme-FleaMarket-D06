@@ -1,0 +1,26 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.buyer.label.email = Email
+authenticated.buyer.label.phone-number = Teléfono
+authenticated.buyer.label.delivery-address = Dirección de entrega
+authenticated.buyer.label.credit-card-number = Número de tarjeta de crédito
+authenticated.buyer.label.holder-name = Titular
+authenticated.buyer.label.brand = Marca
+authenticated.buyer.label.expiration-date = Fecha de vencimiento
+authenticated.buyer.label.cvv = CVV
+
+authenticated.buyer.button.create = Registrar
+authenticated.buyer.button.update = Actualizar
+authenticated.buyer.button.return = Volver
+
+authenticated.buyer.error.timed-out-credit-card-year = El año de vencimiento debe ser desde este en adelante
+authenticated.buyer.error.timed-out-credit-card-month = El mes de vencimiento debe ser desde este en adelante
+authenticated.buyer.error.inexistent-month = El número de mes debe estar en el rango de 1 a 12, de otra forma es inexistente

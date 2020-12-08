@@ -1,0 +1,18 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.supplier.label.company = Company
+authenticated.supplier.label.home-page = Home page
+authenticated.supplier.label.acme-item-category = Item category
+authenticated.supplier.label.description = Description
+
+authenticated.supplier.button.create = Register
+authenticated.supplier.button.update = Update
+authenticated.supplier.button.return = Return

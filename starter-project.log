@@ -1,0 +1,396 @@
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;anonymous&#47;material-sheet&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.tiles.request.servlet.ServletUtil.wrapServletException(ServletUtil.java:63): JSPException including path '../anonymous/material-sheet/list.jsp'.
+at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;anonymous&#47;material-sheet&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;anonymous&#47;material-sheet&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;anonymous&#47;tool-sheet&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.tiles.request.servlet.ServletUtil.wrapServletException(ServletUtil.java:63): JSPException including path '../anonymous/tool-sheet/list.jsp'.
+at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;anonymous&#47;tool-sheet&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;anonymous&#47;tool-sheet&#47;list.jsp] not found
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [update_date] in table [advertisement]
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [update_date] in table [advertisement]
+at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402): [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [update_date] in table [advertisement]
+at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136): Schema-validation: missing column [update_date] in table [advertisement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Acceso no autorizado
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Acceso no autorizado
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [final_mode] in table [item]
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [final_mode] in table [item]
+at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402): [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [final_mode] in table [item]
+at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136): Schema-validation: missing column [final_mode] in table [item]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [acme.Launcher]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'authenticatedSpecificationSheetController' for bean class [acme.features.supplier.specificationSheet.AuthenticatedSpecificationSheetController] conflicts with existing, non-compatible bean definition of same name and class [acme.features.authenticated.specificationSheet.AuthenticatedSpecificationSheetController]
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181): Failed to parse configuration class [acme.Launcher]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'authenticatedSpecificationSheetController' for bean class [acme.features.supplier.specificationSheet.AuthenticatedSpecificationSheetController] conflicts with existing, non-compatible bean definition of same name and class [acme.features.authenticated.specificationSheet.AuthenticatedSpecificationSheetController]
+at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348): Annotation-specified bean name 'authenticatedSpecificationSheetController' for bean class [acme.features.supplier.specificationSheet.AuthenticatedSpecificationSheetController] conflicts with existing, non-compatible bean definition of same name and class [acme.features.authenticated.specificationSheet.AuthenticatedSpecificationSheetController]
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.QueryException: could not resolve property: supplier of: acme.entities.SpecificationSheet [select ss from acme.entities.SpecificationSheet ss where ss.supplier.id = ?1]
+at org.hibernate.QueryException.generateQueryException(QueryException.java:120): could not resolve property: supplier of: acme.entities.SpecificationSheet [select ss from acme.entities.SpecificationSheet ss where ss.supplier.id = ?1]
+at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73): could not resolve property: supplier of: acme.entities.SpecificationSheet
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.QueryException: could not resolve property: supplier of: acme.entities.SpecificationSheet [select ss from acme.entities.SpecificationSheet ss where ss.supplier.id = ?1]
+at org.hibernate.QueryException.generateQueryException(QueryException.java:120): could not resolve property: supplier of: acme.entities.SpecificationSheet [select ss from acme.entities.SpecificationSheet ss where ss.supplier.id = ?1]
+at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73): could not resolve property: supplier of: acme.entities.SpecificationSheet
+ERROR [org.hibernate.hql.internal.ast.ErrorTracker] Invalid path: 's.item.id'
+ERROR [org.hibernate.hql.internal.ast.ErrorTracker] at org.hibernate.hql.internal.ast.util.LiteralProcessor.lookupConstant(LiteralProcessor.java:111): Invalid path: 's.item.id'
+ERROR [org.hibernate.hql.internal.ast.ErrorTracker] <AST>:0:0: unexpected end of subtree
+ERROR [org.hibernate.hql.internal.ast.ErrorTracker] at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.exprOrSubquery(HqlSqlBaseWalker.java:4788): unexpected end of subtree
+ERROR [org.hibernate.hql.internal.ast.ErrorTracker] left-hand operand of a binary operator was null
+ERROR [org.hibernate.hql.internal.ast.ErrorTracker] at org.hibernate.hql.internal.ast.tree.BinaryLogicOperatorNode.initialize(BinaryLogicOperatorNode.java:40): left-hand operand of a binary operator was null
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract acme.entities.Item acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findItemById(int)!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract acme.entities.Item acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findItemById(int)!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract acme.entities.Item acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findItemById(int)!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract acme.entities.Item acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findItemById(int)!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract acme.entities.Item acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findItemById(int)!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 's.item.id' [select ss.item from acme.entities.SpecificationSheet ss where s.item.id = ?1]
+at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:74): Invalid path: 's.item.id' [select ss.item from acme.entities.SpecificationSheet ss where s.item.id = ?1]
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetController': Unsatisfied dependency expressed through field 'listService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596): Error creating bean with name 'supplierSpecificationSheetListService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'supplierSpecificationSheetRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract java.util.Collection acme.features.supplier.specificationSheet.SupplierSpecificationSheetRepository.findMySpecificationSheets(int)!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.QueryException: could not resolve property: supplier of: acme.entities.SpecificationSheet [select ss from acme.entities.SpecificationSheet ss where ss.supplier.id = ?1]
+at org.hibernate.QueryException.generateQueryException(QueryException.java:120): could not resolve property: supplier of: acme.entities.SpecificationSheet [select ss from acme.entities.SpecificationSheet ss where ss.supplier.id = ?1]
+at org.hibernate.persister.entity.AbstractPropertyMapping.propertyException(AbstractPropertyMapping.java:73): could not resolve property: supplier of: acme.entities.SpecificationSheet
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=2}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=1}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=1}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.features.supplier.specificationSheet.SupplierSpecificationSheetListService.findMany(SupplierSpecificationSheetListService.java:43): java.lang.String cannot be cast to java.lang.Integer
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NumberFormatException.forInputString(Unknown Source): For input string: ""
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NumberFormatException.forInputString(Unknown Source): For input string: ""
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=5}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=33, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.el.lang.ELArithmetic.coerce(ELArithmetic.java:391): Cannot convert [acme.entities.Item{id=31, version=0}] of type [class acme.entities.Item] to [Number]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;buyer&#47;acmeItem&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.tiles.request.servlet.ServletUtil.wrapServletException(ServletUtil.java:63): JSPException including path '../buyer/acmeItem/list.jsp'.
+at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;buyer&#47;acmeItem&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;buyer&#47;acmeItem&#47;list.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at acme.framework.utilities.RememberMeLogoutHandler.logout(RememberMeLogoutHandler.java:31): java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.NullPointerException
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1062, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Duplicate entry 'GAR-20-000001' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [UK_oby64nw8p7nau9qw0b43i4g2q]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Duplicate entry 'GAR-20-000001' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1062, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Duplicate entry 'DXX-20-000001' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [UK_oby64nw8p7nau9qw0b43i4g2q]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Duplicate entry 'DXX-20-000001' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1217, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Cannot delete or update a parent row: a foreign key constraint fails
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Cannot delete or update a parent row: a foreign key constraint fails
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1062, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Duplicate entry 'GAR-20-000002' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [UK_oby64nw8p7nau9qw0b43i4g2q]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Duplicate entry 'GAR-20-000002' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1062, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Duplicate entry 'GAR-20-000002' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [UK_oby64nw8p7nau9qw0b43i4g2q]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Duplicate entry 'GAR-20-000002' for key 'UK_oby64nw8p7nau9qw0b43i4g2q'
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1217, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Cannot delete or update a parent row: a foreign key constraint fails
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Cannot delete or update a parent row: a foreign key constraint fails
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1217, SQLState: 23000
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Cannot delete or update a parent row: a foreign key constraint fails
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296): could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117): Cannot delete or update a parent row: a foreign key constraint fails
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised

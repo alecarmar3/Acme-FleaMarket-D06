@@ -1,0 +1,29 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+supplier.acme-item.label.ticker = Ticker
+supplier.acme-item.label.creation-date = Creation date
+supplier.acme-item.label.update-date = Update date
+supplier.acme-item.label.title = Title
+supplier.acme-item.label.category = Category
+supplier.acme-item.label.description = Description
+supplier.acme-item.label.price = Price
+supplier.acme-item.label.photo = Photo
+supplier.acme-item.label.additional-information = Additional information
+supplier.acme-item.label.final-mode = Final mode
+supplier.acme-item.label.is-new = Is new
+	
+supplier.acme-item.button.return = Return
+supplier.acme-item.button.create = Create
+supplier.acme-item.button.update = Update
+supplier.acme-item.button.delete = Delete
+supplier.acme-item.button.saveInFinalMode = Save in final mode
+supplier.acme-item.specification-sheet.button.create = Create Specification Sheet
+supplier.acme-item.specification-sheets = Specification sheets

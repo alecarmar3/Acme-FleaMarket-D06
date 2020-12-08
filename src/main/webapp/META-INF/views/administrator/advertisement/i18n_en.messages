@@ -1,0 +1,33 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.advertisement.label.title = Title
+administrator.advertisement.label.picture = Picture
+administrator.advertisement.label.creation-date = Creation date
+administrator.advertisement.label.update-date = Update date
+administrator.advertisement.label.displayed-until = Displayed until
+administrator.advertisement.label.text-piece = Text piece
+administrator.advertisement.label.small-volume-discount = Small volume discount
+administrator.advertisement.label.average-volume-discount = Average volume discount
+administrator.advertisement.label.large-volume-discount = Large volume discount
+administrator.advertisement.label.small-interval = Small interval
+administrator.advertisement.label.average-interval = Average interval
+administrator.advertisement.label.large-interval = Large interval
+
+administrator.advertisement.button.update = Update
+administrator.advertisement.button.delete = Delete
+administrator.advertisement.button.create = Create
+
+administrator.advertisement.button.return = Return
+
+
+administrator.advertisement.error.past-deadline = The advertisement must be displayed until some time in the future
+administrator.advertisement.error.average-higher-than-small = Average discount must be higher than small discount
+administrator.advertisement.error.large-lower-than-average = Average discount must be lower than large discount
