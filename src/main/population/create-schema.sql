@@ -96,15 +96,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `consumer` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `figment` (
        `id` integer not null,
         `version` integer not null,
@@ -142,15 +133,6 @@
         `header_picture` varchar(255),
         `news_links` varchar(255),
         `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `provider` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -283,16 +265,6 @@ create index IDX6diph4y2lg9obtjhtn0e7ncvc on `tool_sheet` (`stars`);
 
     alter table `buyer` 
        add constraint FK_630a954if6nal5afofvjy73ob 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
-
-    alter table `consumer` 
-       add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
-
-    alter table `provider` 
-       add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
 
