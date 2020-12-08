@@ -27,14 +27,6 @@
        drop 
        foreign key FK_630a954if6nal5afofvjy73ob;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
-
     alter table `specification_sheet` 
        drop 
        foreign key `FKsxisb81nhklkj6ga99chd3rei`;
@@ -59,15 +51,11 @@
 
     drop table if exists `configuration`;
 
-    drop table if exists `consumer`;
-
     drop table if exists `figment`;
 
     drop table if exists `material_sheet`;
 
     drop table if exists `news`;
-
-    drop table if exists `provider`;
 
     drop table if exists `sheet`;
 
